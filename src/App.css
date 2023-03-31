@@ -1,0 +1,390 @@
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.hand {
+  font-family: 'Patrick Hand', cursive;  
+}
+
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+
+
+.Scorebook {
+  margin: 5px;
+  min-height: 800px;
+  min-width: 1400px;
+  max-height: 1100px;
+  max-width: 1800px;
+  border: 2px solid black;
+  background-color: #FFFFEE;
+  display: grid;
+  grid-template-columns: 4fr 2fr 1fr 1fr;
+  grid-template-rows:1fr 2fr 2fr 1fr 4fr;
+  font-size: 12px;
+}
+/*  __________ CONTROLLER CSS _____________ */
+.Controller {
+  padding: 3px;
+  grid-column: 4;
+  grid-row: 1 / 3;
+  border-left: 2px solid #666666;
+  border-bottom: 1px solid #666666;
+  display: grid;
+  grid-template-rows: 1fr 1fr 3fr 3fr 1fr;
+}
+
+.extrasBtns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+}
+
+.runsBtns {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+}
+
+
+/* _________________________________________ */
+
+.GameInfo {
+  grid-column: 1 / 4;
+  text-align: center;
+  display: grid;
+
+
+}
+
+.GameInfo .topRow {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 1fr 3fr 1fr 2fr;
+  border-bottom: 0.5px solid grey;
+}
+.GameInfo .bottomRow {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 2fr 1fr 1fr;
+}
+.Batting {
+  grid-column: 1 / 4;
+  grid-row: 2 / 4;
+  border-top: 2px solid #666666;
+  border-bottom: 1px solid #666666;
+  display: grid;
+  grid-template-rows: 1fr repeat(11, 2fr);
+}
+
+
+.battingTitleRow {
+  display: grid;
+  grid-template-columns: 1fr 3fr 13fr 1fr 4fr 4fr 2fr;
+  border-bottom: 0.5px solid grey;
+
+}
+
+.batting-row {
+  display: grid;
+  grid-template-columns: 1fr 3fr 13fr 1fr 4fr 4fr 2fr;
+  border-bottom: 0.5px solid grey;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+
+
+.batInns {
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1px;
+}
+
+.ball {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-height: 50%;
+
+}
+
+
+
+.isOut::after {
+  content: '//';
+  height: 75%;
+}
+
+
+
+.bowling-row {
+  display: grid;
+  grid-template-columns: 1fr 4fr 14fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.bowlingTitleRow {
+  display: grid;
+  grid-template-columns: 1fr 4fr 14fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.bowlingOvers {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  height: 42px;
+
+}
+
+.OverBox {
+  display: grid;
+  grid-template-columns: repeat(4, 25% );
+  grid-template-rows: repeat(3, 33%);
+  place-items: center;
+  grid-auto-flow: column;
+  height: 42px;
+  /* If you want to implement it in very old browser-versions */
+  -webkit-user-select: none; /* Chrome/Safari */ 
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+
+  /* The rule below is not implemented in browsers yet */
+  -o-user-select: none;
+
+  /* The rule below is implemented in most browsers by now */
+  user-select: none;
+}
+
+.OverBox:hover {
+  cursor: pointer;
+}
+
+
+  .OverBox :nth-child(4) {
+    grid-column: 4;
+    grid-row: 1;
+  }
+  .OverBox :nth-child(5) {
+    grid-column: 4;
+    grid-row: 2;
+  }
+  .OverBox :nth-child(6) {
+    grid-column: 4;
+    grid-row: 3;
+  }
+  .OverBox :nth-child(7) {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .OverBox :nth-child(8) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .OverBox :nth-child(9) {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+
+
+.spellBreak {
+  display: flex;
+}
+.spellBreak h2 {
+  font-size: 4vh; 
+  font-weight: 100;
+}
+
+
+.Fow {
+  grid-column: 1 / 2;
+  grid-row: 4;
+  border-right: 1px solid #666666;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr );
+  /* height:50px; */
+}
+
+.Fow .fowRow {
+  display: grid;
+  grid-template-columns: 2fr repeat(10, 1fr);
+}
+
+.Extras {
+  border-right: 1px solid #666666;
+  display: grid;
+  grid-column: 2;
+
+  grid-template-columns: 2fr 4fr 1fr;
+  grid-template-rows: repeat(4, 1fr );
+}
+
+.Totals {
+  grid-column: 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr) 2fr;
+}
+
+
+.totalScore {
+  letter-spacing: 0.2em;
+}
+
+.Bowling {
+  border-top: 1px solid #666666;
+  grid-column: 1 / 4;
+  display: grid;
+  grid-template-rows: 1fr repeat(8, 2fr);
+
+
+}
+
+
+.Overs {
+  grid-row: 3 / 6;
+  border-left: 2px solid #666666;
+  display: grid;
+  grid-template-rows: 2fr repeat(20, 1fr);
+  font-size: 0.75em;
+
+}
+.oversRow {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr;
+
+}
+
+.overLogCell {
+  font-size: 1em;
+}
+
+
+
+
+
+
+
+/* GENERAL HELPER STYLES */
+
+.changableInput {
+  text-align: center;
+  width: 100%;
+  height: 80%;
+  background: none;
+  outline: none;
+  border: none;
+  background-color: #FFFFF6;
+  opacity: 0.9;
+  padding: 2px;
+  font-family: 'Patrick Hand', cursive;}
+.changableInput:read-only {
+  background-color: #FFFFF6;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.changableInput:hover {
+  cursor: pointer;
+}
+
+
+.fcc {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fcsa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ffsc {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.notbold {
+  font-weight: normal;
+}
+.br {
+  border-right: 0.5px solid grey;
+}
+.bl {
+  border-left: 0.5px solid grey;
+}
+.bb {
+  border-bottom: 0.5px solid grey;
+}
+.bt {
+  border-top: 0.5px solid grey;
+}
+
+.selected {
+  background-color: papayawhip;
+}
+
+.mr3 {
+  margin-right: 3px;
+}
+
+.pl3 {
+  padding-left: 2px;
+}
+
+.bigFont {
+  font-size: 1.25em;
+}
+
+
+.printed {
+  color: rgb(90, 90, 90);
+}
+
+
+.bowler1 {
+  color: green;
+}
+
+.bowler2 {
+  color: rgb(214, 73, 73);
+}
+.bowler3 {
+  color: darkblue;
+}
+.bowler4 {
+  color: purple;
+}
+.bowler5 {
+  color: darkgoldenrod ;
+}
+.bowler6 {
+  color: fuchsia;
+}
+.bowler7{
+  color: darkcyan;
+}
+.bowler8{
+  color: deepskyblue;
+}
