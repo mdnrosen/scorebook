@@ -25,6 +25,7 @@ const Bowling = ({ bowlers, updateBowler, selectPlayer, currentBowler, deliverie
                 <div className="fcc br printed">M</div>
                 <div className="fcc br printed">Runs</div>
                 <div className="fcc br printed">Wkt</div>
+                <div className="fcc br printed">Econ</div>
             </div>
             {bowlers.map((bowler, i) =>
                 <BowlerRow 

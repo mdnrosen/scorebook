@@ -55,6 +55,16 @@ const BowlerRow = ({ i, bowler, handleDblClick, handleBlur, selectPlayer, curren
         return `${wides} / ${noballs}`
     }
 
+
+    function getEcon(){
+        if (!deliveries.length) return ''
+        const runs = totalRuns()
+        const oversAsPerc = deliveries.filter(d => d.isLegal).length / 6
+        const num = runs / oversAsPerc
+        return (Math.round(num * 100) / 100).toFixed(2)
+    }
+
+    
     return (
         <div 
             className={`bowling-row bb ${currentBowler === bowler.num ? 'selected' : ''}`}
@@ -88,7 +98,6 @@ const BowlerRow = ({ i, bowler, handleDblClick, handleBlur, selectPlayer, curren
         
                     
                        
-                    // <p>{over.icon}</p>    
                 )}
             </div>
             <div className={`br fcc hand bowler${bowler.num}`}>
@@ -106,6 +115,10 @@ const BowlerRow = ({ i, bowler, handleDblClick, handleBlur, selectPlayer, curren
             <div className={`br fcc hand bigFont bowler${bowler.num}`}>
                 <p>{getWickets()}</p>
             </div>
+            <div className={`br fcc hand bigFont bowler${bowler.num}`}>
+                <p>{getEcon()}</p>
+            </div>
+
 
     
         </div>

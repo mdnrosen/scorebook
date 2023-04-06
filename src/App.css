@@ -94,20 +94,19 @@ h1, h2, h3, h4, p {
 
 .battingTitleRow {
   display: grid;
-  grid-template-columns: 1fr 3fr 13fr 1fr 4fr 4fr 2fr;
+  grid-template-columns: 1fr 3fr 13fr 1fr 4fr 4fr 2fr 1fr;
   border-bottom: 0.5px solid grey;
 
 }
 
 .batting-row {
   display: grid;
-  grid-template-columns: 1fr 3fr 13fr 1fr 4fr 4fr 2fr;
+  grid-template-columns: 1fr 3fr 13fr 1fr 4fr 4fr 2fr 1fr;
   border-bottom: 0.5px solid grey;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 
 }
-
 
 
 .batInns {
@@ -132,19 +131,19 @@ h1, h2, h3, h4, p {
 
 .isOut::after {
   content: '//';
-  height: 75%;
+  height: 80%;
 }
 
 
 
 .bowling-row {
   display: grid;
-  grid-template-columns: 1fr 4fr 14fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 4fr 13fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .bowlingTitleRow {
   display: grid;
-  grid-template-columns: 1fr 4fr 14fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 4fr 13fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
 }
 
@@ -265,7 +264,7 @@ h1, h2, h3, h4, p {
   border-left: 2px solid #666666;
   display: grid;
   grid-template-rows: 2fr repeat(20, 1fr);
-  font-size: 0.75em;
+  font-size: 1em;
 
 }
 .oversRow {

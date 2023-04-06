@@ -27,7 +27,8 @@ import BatterRow from './BatterRow'
                     <div className="fcc br printed">4 / 6</div>
                     <div className="fcc br printed">HOW OUT</div>
                     <div className="fcc br printed">BOWLER</div>
-                    <div className="fcc printed">SCORE</div>
+                    <div className="fcc br printed">SCORE</div>
+                    <div className="fcc printed">S/R</div>
                 </div>
                 {batters.map((batter, i) => 
                     <BatterRow 

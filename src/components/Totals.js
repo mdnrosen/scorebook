@@ -46,7 +46,7 @@ const Totals = ({ deliveries }) => {
                 <p><strong>TOTAL</strong></p>
             </div>
             <div className="total bb fcc hand noCaps totalScore">
-                <h3>{runs + sumOfExtras(extras)}</h3>
+                <h3>{`${runs + sumOfExtras(extras)}`}</h3>
             </div>
         </div>
     )

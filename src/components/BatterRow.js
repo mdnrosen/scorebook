@@ -13,7 +13,7 @@ const BatterRow = ({ i, batter, handleBlur, handleDblClick, selectPlayer, curren
             :
             ball
         })
-        return `(${balls.length})`
+        return balls.length
     }
 
     function getScore(){
@@ -35,6 +35,13 @@ const BatterRow = ({ i, batter, handleBlur, handleDblClick, selectPlayer, curren
         const sixes = deliveries.filter(ball => ball.runs === 6).length
 
        return `${fours || '-'} / ${sixes || '-'}`
+    }
+
+    function getStrikeRate(){
+        if (!deliveries.length) return ''
+        const num = getScore() / getBallsFaced()
+        
+        return (num * 100).toFixed(2)
     }
 
     
@@ -100,7 +107,10 @@ const BatterRow = ({ i, batter, handleBlur, handleDblClick, selectPlayer, curren
  
             <div className="br fcsa hand">
                 <h3 className="mr3 notbold">{getScore()}</h3>
-                <p>{getBallsFaced()}</p>
+                <sup>{`${getBallsFaced()}`}</sup>
+            </div>
+            <div className="br fcsa hand">
+                <small>{getStrikeRate()}</small>
             </div>
         
   
