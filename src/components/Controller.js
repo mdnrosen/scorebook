@@ -95,10 +95,10 @@ const Controller = ({ bowler, batter, updateDeliveries, undoDelivery, deliveries
                 <input onClick={addBall} name="runs" type="button" value={4} />
                 <input onClick={addBall} name="runs" type="button" value={6} />
                 <input onClick={addBall} name="runs" type="button" value={5} />
-                <input onClick={addBall} name="wicket" type="button" value="W"/>
+                <input className="wicketBtn" onClick={addBall} name="wicket" type="button" value="W"/>
             </div>
-            <div className="undoBtn fcc">
-                <button onClick={undoDelivery} className="button">Undo</button>
+            <div className="fcc">
+                <button onClick={undoDelivery} className="undoBtn">Undo</button>
 
             </div>
     

@@ -1,0 +1,1414 @@
+{
+    "current": {
+        "batter": 9,
+        "bowler": 1
+    },
+    "gameInfo": {
+        "home": "Kolkata Knight Riders",
+        "away": "Royal Challengers Bangalore",
+        "matchType": "TATA IPL 2023 - Match 9",
+        "venue": "Eden Gardens, Kolkata",
+        "innsOf": "Royal Challengers Bangalore",
+        "date": "6th April 2023",
+        "startTime": "15.02"
+    },
+    "bowlers": [
+        {
+            "num": 1,
+            "name": "Mohammad Siraj"
+        },
+        {
+            "num": 2,
+            "name": "David Willey"
+        },
+        {
+            "num": 3,
+            "name": "Akash Deep"
+        },
+        {
+            "num": 4,
+            "name": "Michael Bracewell"
+        },
+        {
+            "num": 5,
+            "name": "Shahbaz Ahmed"
+        },
+        {
+            "num": 6,
+            "name": "Karn Sharma"
+        },
+        {
+            "num": 7,
+            "name": "Harshal Patel"
+        },
+        {
+            "num": 8,
+            "name": ""
+        }
+    ],
+    "spells": [
+        "over3",
+        "over5",
+        "over6",
+        "over8",
+        "over9",
+        "over11",
+        "over13",
+        "over14",
+        "over15",
+        "over16"
+    ],
+    "batters": [
+        {
+            "num": 1,
+            "name": "Ramanullah Gurbaz",
+            "inns": "",
+            "boundaries": "",
+            "howout": "c Deep",
+            "bowler": "KARN",
+            "score": ""
+        },
+        {
+            "num": 2,
+            "name": "Ventakesh Iyer",
+            "inns": "",
+            "boundaries": "",
+            "howout": "Bowled",
+            "bowler": "WILLEY",
+            "score": ""
+        },
+        {
+            "num": 3,
+            "name": "Mandeep Singh",
+            "inns": "",
+            "boundaries": "",
+            "howout": "Bowled",
+            "bowler": "WILLEY",
+            "score": ""
+        },
+        {
+            "num": 4,
+            "name": "Nitish Rana*",
+            "inns": "",
+            "boundaries": "",
+            "howout": "c Karthik",
+            "bowler": "BRACEWELL",
+            "score": ""
+        },
+        {
+            "num": 5,
+            "name": "Rinku Singh",
+            "inns": "",
+            "boundaries": "",
+            "howout": "c Karthik",
+            "bowler": "HARSHAL",
+            "score": ""
+        },
+        {
+            "num": 6,
+            "name": "Andre Russell",
+            "inns": "",
+            "boundaries": "",
+            "howout": "c Kohli",
+            "bowler": "KARN",
+            "score": ""
+        },
+        {
+            "num": 7,
+            "name": "Shardul Thakur",
+            "inns": "",
+            "boundaries": "",
+            "howout": "c Maxwell",
+            "bowler": "SIRAJ",
+            "score": ""
+        },
+        {
+            "num": 8,
+            "name": "Sunil Narine",
+            "inns": "",
+            "boundaries": "",
+            "howout": "",
+            "bowler": "",
+            "score": ""
+        },
+        {
+            "num": 9,
+            "name": "Umesh Yadav",
+            "inns": "",
+            "boundaries": "",
+            "howout": "",
+            "bowler": "",
+            "score": ""
+        },
+        {
+            "num": 10,
+            "name": "",
+            "inns": "",
+            "boundaries": "",
+            "howout": "",
+            "bowler": "",
+            "score": ""
+        },
+        {
+            "num": 11,
+            "name": "",
+            "inns": "",
+            "boundaries": "",
+            "howout": "",
+            "bowler": "",
+            "score": ""
+        }
+    ],
+    "fow": [
+        {
+            "number": 1,
+            "batter": "2 / 3",
+            "partnership": "3.2",
+            "total": "26"
+        },
+        {
+            "number": 2,
+            "batter": "3 / 0",
+            "partnership": "3.3",
+            "total": "26"
+        },
+        {
+            "number": 3,
+            "batter": "4 / 1",
+            "partnership": "6.1",
+            "total": "47"
+        },
+        {
+            "number": 4,
+            "batter": "1 / 57",
+            "partnership": "11.2",
+            "total": "89"
+        },
+        {
+            "number": 5,
+            "batter": "6 / 0",
+            "partnership": "11.3",
+            "total": "89"
+        },
+        {
+            "number": 6,
+            "batter": "5 / 46",
+            "partnership": "18.6",
+            "total": "192"
+        },
+        {
+            "number": 7,
+            "batter": "7 / 68",
+            "partnership": "19.4",
+            "total": "198"
+        },
+        {
+            "number": 8,
+            "batter": "",
+            "partnership": "",
+            "total": ""
+        },
+        {
+            "number": 9,
+            "batter": "",
+            "partnership": "",
+            "total": ""
+        },
+        {
+            "number": 10,
+            "batter": "",
+            "partnership": "",
+            "total": ""
+        }
+    ],
+    "over": 0,
+    "deliveries": [
+        {
+            "isLegal": true,
+            "over": 1,
+            "bowler": 1,
+            "batter": 1,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 1,
+            "bowler": 1,
+            "batter": 1,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": false,
+            "over": 1,
+            "bowler": 1,
+            "batter": 1,
+            "runs": 0,
+            "extras": {
+                "wd": 5
+            },
+            "result": "4wd"
+        },
+        {
+            "isLegal": true,
+            "over": 1,
+            "bowler": 1,
+            "batter": 1,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 1,
+            "bowler": 1,
+            "batter": 1,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 1,
+            "bowler": 1,
+            "batter": 1,
+            "runs": 4,
+            "extras": null,
+            "result": "4"
+        },
+        {
+            "isLegal": true,
+            "over": 1,
+            "bowler": 1,
+            "batter": 1,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 2,
+            "bowler": 2,
+            "batter": 2,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 2,
+            "bowler": 2,
+            "batter": 2,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 2,
+            "bowler": 2,
+            "batter": 1,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 2,
+            "bowler": 2,
+            "batter": 1,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 2,
+            "bowler": 2,
+            "batter": 2,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 2,
+            "bowler": 2,
+            "batter": 1,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 3,
+            "bowler": 1,
+            "batter": 2,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 3,
+            "bowler": 1,
+            "batter": 2,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 3,
+            "bowler": 1,
+            "batter": 1,
+            "runs": 4,
+            "extras": null,
+            "result": "4"
+        },
+        {
+            "isLegal": true,
+            "over": 3,
+            "bowler": 1,
+            "batter": 1,
+            "runs": 0,
+            "extras": {
+                "b": 4
+            },
+            "result": "4b"
+        },
+        {
+            "isLegal": true,
+            "over": 3,
+            "bowler": 1,
+            "batter": 1,
+            "runs": 4,
+            "extras": null,
+            "result": "4"
+        },
+        {
+            "isLegal": false,
+            "over": 3,
+            "bowler": 1,
+            "batter": 1,
+            "runs": 0,
+            "extras": {
+                "wd": 1
+            },
+            "result": "0wd"
+        },
+        {
+            "isLegal": true,
+            "over": 3,
+            "bowler": 1,
+            "batter": 1,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 4,
+            "bowler": 2,
+            "batter": 2,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 4,
+            "bowler": 2,
+            "batter": 2,
+            "runs": null,
+            "extras": null,
+            "result": "W"
+        },
+        {
+            "isLegal": true,
+            "over": 4,
+            "bowler": 2,
+            "batter": 3,
+            "runs": null,
+            "extras": null,
+            "result": "W"
+        },
+        {
+            "isLegal": true,
+            "over": 4,
+            "bowler": 2,
+            "batter": 4,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 4,
+            "bowler": 2,
+            "batter": 4,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 4,
+            "bowler": 2,
+            "batter": 4,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 5,
+            "bowler": 3,
+            "batter": 1,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": false,
+            "over": 5,
+            "bowler": 3,
+            "batter": 1,
+            "runs": 6,
+            "extras": {
+                "nb": 1
+            },
+            "result": "6nb"
+        },
+        {
+            "isLegal": true,
+            "over": 5,
+            "bowler": 3,
+            "batter": 1,
+            "runs": 2,
+            "extras": null,
+            "result": "2"
+        },
+        {
+            "isLegal": true,
+            "over": 5,
+            "bowler": 3,
+            "batter": 1,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 5,
+            "bowler": 3,
+            "batter": 1,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 5,
+            "bowler": 3,
+            "batter": 1,
+            "runs": 0,
+            "extras": {
+                "lb": 4
+            },
+            "result": "4lb"
+        },
+        {
+            "isLegal": false,
+            "over": 5,
+            "bowler": 3,
+            "batter": 1,
+            "runs": 0,
+            "extras": {
+                "wd": 1
+            },
+            "result": "0wd"
+        },
+        {
+            "isLegal": true,
+            "over": 5,
+            "bowler": 3,
+            "batter": 1,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 6,
+            "bowler": 2,
+            "batter": 1,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 6,
+            "bowler": 2,
+            "batter": 1,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 6,
+            "bowler": 2,
+            "batter": 1,
+            "runs": 4,
+            "extras": null,
+            "result": "4"
+        },
+        {
+            "isLegal": true,
+            "over": 6,
+            "bowler": 2,
+            "batter": 1,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 6,
+            "bowler": 2,
+            "batter": 4,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 6,
+            "bowler": 2,
+            "batter": 1,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 7,
+            "bowler": 4,
+            "batter": 4,
+            "runs": null,
+            "extras": null,
+            "result": "W"
+        },
+        {
+            "isLegal": true,
+            "over": 7,
+            "bowler": 4,
+            "batter": 5,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 7,
+            "bowler": 4,
+            "batter": 5,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 7,
+            "bowler": 4,
+            "batter": 5,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 7,
+            "bowler": 4,
+            "batter": 1,
+            "runs": 2,
+            "extras": null,
+            "result": "2"
+        },
+        {
+            "isLegal": true,
+            "over": 7,
+            "bowler": 4,
+            "batter": 1,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 8,
+            "bowler": 5,
+            "batter": 1,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 8,
+            "bowler": 5,
+            "batter": 1,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 8,
+            "bowler": 5,
+            "batter": 5,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 8,
+            "bowler": 5,
+            "batter": 1,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 8,
+            "bowler": 5,
+            "batter": 1,
+            "runs": 4,
+            "extras": null,
+            "result": "4"
+        },
+        {
+            "isLegal": true,
+            "over": 8,
+            "bowler": 5,
+            "batter": 1,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 9,
+            "bowler": 4,
+            "batter": 5,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 9,
+            "bowler": 4,
+            "batter": 1,
+            "runs": 6,
+            "extras": null,
+            "result": "6"
+        },
+        {
+            "isLegal": true,
+            "over": 9,
+            "bowler": 4,
+            "batter": 1,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 9,
+            "bowler": 4,
+            "batter": 5,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 9,
+            "bowler": 4,
+            "batter": 1,
+            "runs": 4,
+            "extras": null,
+            "result": "4"
+        },
+        {
+            "isLegal": true,
+            "over": 9,
+            "bowler": 4,
+            "batter": 1,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 10,
+            "bowler": 6,
+            "batter": 1,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 10,
+            "bowler": 6,
+            "batter": 1,
+            "runs": 6,
+            "extras": null,
+            "result": "6"
+        },
+        {
+            "isLegal": true,
+            "over": 10,
+            "bowler": 6,
+            "batter": 1,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 10,
+            "bowler": 6,
+            "batter": 1,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 10,
+            "bowler": 6,
+            "batter": 5,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 10,
+            "bowler": 6,
+            "batter": 1,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 11,
+            "bowler": 7,
+            "batter": 5,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 11,
+            "bowler": 7,
+            "batter": 5,
+            "runs": 2,
+            "extras": null,
+            "result": "2"
+        },
+        {
+            "isLegal": true,
+            "over": 11,
+            "bowler": 7,
+            "batter": 5,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 11,
+            "bowler": 7,
+            "batter": 5,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 11,
+            "bowler": 7,
+            "batter": 1,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 11,
+            "bowler": 7,
+            "batter": 5,
+            "runs": 4,
+            "extras": null,
+            "result": "4"
+        },
+        {
+            "isLegal": true,
+            "over": 12,
+            "bowler": 6,
+            "batter": 1,
+            "runs": 2,
+            "extras": null,
+            "result": "2"
+        },
+        {
+            "isLegal": true,
+            "over": 12,
+            "bowler": 6,
+            "batter": 1,
+            "runs": null,
+            "extras": null,
+            "result": "W"
+        },
+        {
+            "isLegal": true,
+            "over": 12,
+            "bowler": 6,
+            "batter": 6,
+            "runs": null,
+            "extras": null,
+            "result": "W"
+        },
+        {
+            "isLegal": true,
+            "over": 12,
+            "bowler": 6,
+            "batter": 7,
+            "runs": 4,
+            "extras": null,
+            "result": "4"
+        },
+        {
+            "isLegal": true,
+            "over": 12,
+            "bowler": 6,
+            "batter": 7,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 12,
+            "bowler": 6,
+            "batter": 7,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 13,
+            "bowler": 3,
+            "batter": 7,
+            "runs": 4,
+            "extras": null,
+            "result": "4"
+        },
+        {
+            "isLegal": true,
+            "over": 13,
+            "bowler": 3,
+            "batter": 7,
+            "runs": 4,
+            "extras": null,
+            "result": "4"
+        },
+        {
+            "isLegal": true,
+            "over": 13,
+            "bowler": 3,
+            "batter": 7,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 13,
+            "bowler": 3,
+            "batter": 5,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 13,
+            "bowler": 3,
+            "batter": 7,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": false,
+            "over": 13,
+            "bowler": 3,
+            "batter": 5,
+            "runs": 1,
+            "extras": {
+                "nb": 1
+            },
+            "result": "1nb"
+        },
+        {
+            "isLegal": true,
+            "over": 13,
+            "bowler": 3,
+            "batter": 7,
+            "runs": 6,
+            "extras": null,
+            "result": "6"
+        },
+        {
+            "isLegal": true,
+            "over": 14,
+            "bowler": 6,
+            "batter": 5,
+            "runs": 2,
+            "extras": null,
+            "result": "2"
+        },
+        {
+            "isLegal": true,
+            "over": 14,
+            "bowler": 6,
+            "batter": 5,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 14,
+            "bowler": 6,
+            "batter": 7,
+            "runs": 2,
+            "extras": null,
+            "result": "2"
+        },
+        {
+            "isLegal": true,
+            "over": 14,
+            "bowler": 6,
+            "batter": 7,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 14,
+            "bowler": 6,
+            "batter": 5,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 14,
+            "bowler": 6,
+            "batter": 7,
+            "runs": 4,
+            "extras": null,
+            "result": "4"
+        },
+        {
+            "isLegal": true,
+            "over": 15,
+            "bowler": 4,
+            "batter": 5,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 15,
+            "bowler": 4,
+            "batter": 7,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 15,
+            "bowler": 4,
+            "batter": 5,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 15,
+            "bowler": 4,
+            "batter": 7,
+            "runs": 6,
+            "extras": null,
+            "result": "6"
+        },
+        {
+            "isLegal": true,
+            "over": 15,
+            "bowler": 4,
+            "batter": 7,
+            "runs": 6,
+            "extras": null,
+            "result": "6"
+        },
+        {
+            "isLegal": true,
+            "over": 15,
+            "bowler": 4,
+            "batter": 7,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 16,
+            "bowler": 2,
+            "batter": 7,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 16,
+            "bowler": 2,
+            "batter": 7,
+            "runs": 4,
+            "extras": null,
+            "result": "4"
+        },
+        {
+            "isLegal": true,
+            "over": 16,
+            "bowler": 2,
+            "batter": 7,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 16,
+            "bowler": 2,
+            "batter": 7,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 16,
+            "bowler": 2,
+            "batter": 5,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": false,
+            "over": 16,
+            "bowler": 2,
+            "batter": 5,
+            "runs": 0,
+            "extras": {
+                "wd": 1
+            },
+            "result": "0wd"
+        },
+        {
+            "isLegal": true,
+            "over": 16,
+            "bowler": 2,
+            "batter": 5,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 17,
+            "bowler": 7,
+            "batter": 5,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 17,
+            "bowler": 7,
+            "batter": 7,
+            "runs": 4,
+            "extras": null,
+            "result": "4"
+        },
+        {
+            "isLegal": true,
+            "over": 17,
+            "bowler": 7,
+            "batter": 7,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 17,
+            "bowler": 7,
+            "batter": 5,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 17,
+            "bowler": 7,
+            "batter": 7,
+            "runs": 4,
+            "extras": null,
+            "result": "4"
+        },
+        {
+            "isLegal": true,
+            "over": 17,
+            "bowler": 7,
+            "batter": 7,
+            "runs": 2,
+            "extras": null,
+            "result": "2"
+        },
+        {
+            "isLegal": true,
+            "over": 18,
+            "bowler": 1,
+            "batter": 5,
+            "runs": 0,
+            "extras": {
+                "lb": 1
+            },
+            "result": "1lb"
+        },
+        {
+            "isLegal": false,
+            "over": 18,
+            "bowler": 1,
+            "batter": 7,
+            "runs": 0,
+            "extras": {
+                "wd": 1
+            },
+            "result": "0wd"
+        },
+        {
+            "isLegal": true,
+            "over": 18,
+            "bowler": 1,
+            "batter": 7,
+            "runs": 4,
+            "extras": null,
+            "result": "4"
+        },
+        {
+            "isLegal": true,
+            "over": 18,
+            "bowler": 1,
+            "batter": 7,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 18,
+            "bowler": 1,
+            "batter": 5,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": false,
+            "over": 18,
+            "bowler": 1,
+            "batter": 5,
+            "runs": 6,
+            "extras": {
+                "nb": 1
+            },
+            "result": "6nb"
+        },
+        {
+            "isLegal": true,
+            "over": 18,
+            "bowler": 1,
+            "batter": 5,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 18,
+            "bowler": 1,
+            "batter": 7,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 19,
+            "bowler": 7,
+            "batter": 5,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 19,
+            "bowler": 7,
+            "batter": 5,
+            "runs": 4,
+            "extras": null,
+            "result": "4"
+        },
+        {
+            "isLegal": true,
+            "over": 19,
+            "bowler": 7,
+            "batter": 5,
+            "runs": 6,
+            "extras": null,
+            "result": "6"
+        },
+        {
+            "isLegal": false,
+            "over": 19,
+            "bowler": 7,
+            "batter": 5,
+            "runs": 0,
+            "extras": {
+                "wd": 1
+            },
+            "result": "0wd"
+        },
+        {
+            "isLegal": true,
+            "over": 19,
+            "bowler": 7,
+            "batter": 5,
+            "runs": 6,
+            "extras": null,
+            "result": "6"
+        },
+        {
+            "isLegal": true,
+            "over": 19,
+            "bowler": 7,
+            "batter": 5,
+            "runs": 0,
+            "extras": null,
+            "result": "0"
+        },
+        {
+            "isLegal": true,
+            "over": 19,
+            "bowler": 7,
+            "batter": 5,
+            "runs": null,
+            "extras": null,
+            "result": "W"
+        },
+        {
+            "isLegal": true,
+            "over": 20,
+            "bowler": 1,
+            "batter": 7,
+            "runs": 4,
+            "extras": null,
+            "result": "4"
+        },
+        {
+            "isLegal": true,
+            "over": 20,
+            "bowler": 1,
+            "batter": 7,
+            "runs": 1,
+            "extras": null,
+            "result": "1"
+        },
+        {
+            "isLegal": true,
+            "over": 20,
+            "bowler": 1,
+            "batter": 8,
+            "runs": 0,
+            "extras": {
+                "lb": 1
+            },
+            "result": "1lb"
+        },
+        {
+            "isLegal": true,
+            "over": 20,
+            "bowler": 1,
+            "batter": 7,
+            "runs": null,
+            "extras": null,
+            "result": "W"
+        },
+        {
+            "isLegal": true,
+            "over": 20,
+            "bowler": 1,
+            "batter": 9,
+            "runs": 4,
+            "extras": null,
+            "result": "4"
+        },
+        {
+            "isLegal": true,
+            "over": 20,
+            "bowler": 1,
+            "batter": 9,
+            "runs": 2,
+            "extras": null,
+            "result": "2"
+        }
+    ]
+}
