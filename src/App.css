@@ -27,10 +27,12 @@ h1, h2, h3, h4, p {
 
 .Scorebook {
   margin: 5px;
-  min-height: 800px;
+  width: 100vw;
+  height: 100vh;
+  min-height: 900px;
   min-width: 1400px;
-  max-height: 1100px;
-  max-width: 1800px;
+  /* max-height: 1100px;
+  max-width: 1800px; */
   border: 2px solid black;
   background-color: #FFFFEE;
   display: grid;
@@ -40,13 +42,12 @@ h1, h2, h3, h4, p {
 }
 /*  __________ CONTROLLER CSS _____________ */
 .Controller {
-  padding: 3px;
+  padding: 1px;
+  display: grid;
   grid-column: 4;
-
   grid-row: 1 / 3;
   border-left: 2px solid #666666;
   border-bottom: 1px solid #666666;
-  display: grid;
   align-items: center;
   justify-content: center;
   grid-template-rows: 1fr 1fr 3fr 3fr 1fr;
@@ -60,7 +61,7 @@ h1, h2, h3, h4, p {
 
 
 .extrasBtns * {
-  border: 1px solid black;  height: 2.5em;
+  border: 1px solid black; 
   width: 2.5em;
   margin: 0.2em;
   border-radius: 0.5em;
@@ -78,17 +79,16 @@ input:hover {
 
 .runsBtns {
   display: grid;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
   justify-content: center;
 }
 
 .runsBtns * {
-  border: 1px solid black;  height: 2.5em;
-  border-radius: 100%;
+  border: 1px solid black; 
   width: 2.5em;
-  margin: 0.2em;
+  margin: 0.1em;
   
 }
 
@@ -100,7 +100,7 @@ button:hover {
   width: 100%;
   border: 1px solid black;
   border-radius: 1em;
-  padding: 0.5em;
+  padding: 0.1em;
 }
 
 
@@ -135,14 +135,14 @@ button:hover {
 
 .battingTitleRow {
   display: grid;
-  grid-template-columns: 1fr 3fr 13fr 1fr 4fr 4fr 2fr 1fr;
+  grid-template-columns: 1fr 3fr 13fr 1fr 4fr 4fr 2fr 2fr;
   border-bottom: 0.5px solid grey;
 
 }
 
 .batting-row {
   display: grid;
-  grid-template-columns: 1fr 3fr 13fr 1fr 4fr 4fr 2fr 1fr;
+  grid-template-columns: 1fr 3fr 13fr 1fr 4fr 4fr 2fr 2fr;
   border-bottom: 0.5px solid grey;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
@@ -180,6 +180,7 @@ button:hover {
 .bowling-row {
   display: grid;
   grid-template-columns: 1fr 4fr 13fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  
 }
 
 .bowlingTitleRow {
@@ -191,17 +192,17 @@ button:hover {
 .bowlingOvers {
   display: grid;
   grid-template-columns: repeat(20, 1fr);
-  height: 42px;
+
 
 }
 
 .OverBox {
   display: grid;
   grid-template-columns: repeat(4, 25% );
-  grid-template-rows: repeat(3, 33%);
+  grid-template-rows: repeat(3, 31%);
   place-items: center;
   grid-auto-flow: column;
-  height: 42px;
+
   /* If you want to implement it in very old browser-versions */
   -webkit-user-select: none; /* Chrome/Safari */ 
   -moz-user-select: none; /* Firefox */
@@ -212,6 +213,10 @@ button:hover {
 
   /* The rule below is implemented in most browsers by now */
   user-select: none;
+}
+
+.OverBox p {
+  font-size: 12px !important;
 }
 
 .OverBox:hover {

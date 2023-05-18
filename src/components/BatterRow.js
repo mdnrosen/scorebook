@@ -106,11 +106,11 @@ const BatterRow = ({ i, batter, handleBlur, handleDblClick, selectPlayer, curren
             </div>
  
             <div className="br fcsa hand">
-                <h3 className="mr3 notbold">{getScore()}</h3>
-                <sup>{`${getBallsFaced()}`}</sup>
+                <h2 className="mr3 notbold">{getScore()}</h2>
+                <p>{getBallsFaced() ? `(${getBallsFaced()})` : ``}</p>
             </div>
             <div className="br fcsa hand">
-                <small>{getStrikeRate()}</small>
+                <p>{getStrikeRate()}</p>
             </div>
         
   
